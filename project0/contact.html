@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+</head>
+<style>
+	input[type=text], select {
+              width: 50%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+            }
+            .label {
+              font-size: 20px;
+            }
+                .button {
+         background-color: #006400;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
+     body {
+      background-color: #92a8d1;}
+      p{
+        font-family:calibri,garamond,serif;font-size:20px;
+      }
+      h2{
+        font-family:calibri,serif;font-size:30px;
+      }
+	</style>
+<body>
+    <div>
+        <h2>If you are interested to join in MSIT, please fill in the form below and click ok.</h2>
+  <form action="/action_page.php">
+    <label class="label" for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label class="label" for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <!-- <input type="submit" value="Submit"> -->
+    <!-- <input type="submit" value="Submit"> -->
+
+    <label class="label" for="state">State</label>
+    <select id="state" name="state">
+      <option value="andhra pradesh">Andhra Pradesh</option>
+      <option value="telangana">Telangana</option>
+      <option value="tamil nadu">Tamil Nadu</option>
+      <option value="kerala">Kerala</option>
+      <option value="delhi">Delhi</option>
+      <option value="Kolkata">Kolkata</option>
+      <option value="gujarat">Gujarat</option>
+      <option value="jaipur">Jaipur</option>
+    </select>
+  </form>
+</div>
+<div class="center">
+ <button class="button" align="left"onclick="window.location.href = 'https://msitprogram.net/';">OK</button>
+</div>
+</body>
+</html>
